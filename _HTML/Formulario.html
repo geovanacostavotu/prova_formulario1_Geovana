@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../_CSS/index.css">
+</head>
+
+<body>
+    <header>
+        <h2>Exemplos de Formulário em HTML</h2>
+    </header>
+    <div>
+        <form action="#" method="post">
+            <hr>
+            <header>
+                <h3>Exemplo 01</h3>
+            </header>
+            <input type="text" name="name1" id="name1" placeholder="Nome">
+            <input type="email" name="name1" id="email1" placeholder="Email">
+            <input type="tel" name="name1" id="tel1" placeholder="Celular">
+            <input type="number" name="name1" id="number1" placeholder="Senha">
+            <input type="submit" value="Cadastrar" id="cadastro">
+            <hr>
+        </form>
+        <form action="#" method="post">
+            <header>
+                <h3>Exemplo 02</h3>
+            </header>
+            <textarea cols="90" rows="5" name="text" id="text1"></textarea>
+            <hr>
+        </form>
+        <form action="#" method="post">
+            <header>
+                <h3>Exemplo 03</h3>
+            </header>
+            <fieldset>
+                <legend id="Formulario1">Formulário</legend>
+                <label>Nome:<input type="text" name="name2" id="name2"></label>
+                <br>
+                <br>
+                <label>Sexo:
+                    <input type="radio" name="Masculino">Masculino
+                    <input type="radio" name="Feminino">Feminino
+                </label>
+                <br>
+                <br>
+                <label>País: <select name="pais" id="pais">
+                        <option>Selecione uma opção</option>
+                        <option>Brasil</option>
+                        <option>África</option>
+                        <option>Ásia</option>
+                        <option>Europa</option>
+                        <option>América</option>
+                        <option>Oceania</option>
+                    </select></label>
+                <br>
+                <br>
+                <label>Mensagem:
+                    <br>
+                    <textarea cols="25" rows="3" name="Mensagem" id="mensagem"></textarea>
+                    <br>
+                    <br>
+                    <input type="checkbox"> Assinar Newsletter?
+                    <br>
+                    <br>
+                    <input type="submit" name="enviar" id="enviar" value="Enviar">
+                </label>
+            </fieldset>
+            <hr>
+            <form action="#" method="post">
+                <header>
+                    <h3>Exemplo 04</h3>
+                </header>
+                <textarea cols="30" rows="3" id="text3"></textarea>
+                <input type="submit" name="pesquisar" id="pesquisar" value="Clique para Pesquisar">
+            </form>
+            <hr>
+            <form action="#" method="post">
+                <header>
+                    <h3>Exemplo 05</h3>
+                </header>
+                <fieldset id="fild1" >
+                    <legend id="agrada1" >Selecione a cor que mais agrada?</legend>
+                    <label></label><input type="checkbox" name="Azul" id="azul">Azul</label>
+                    <label></label><input type="checkbox" name="Azul" id="vermelho">Vermelho</label>
+                    <label></label><input type="checkbox" name="Azul" id="verde">Verde</label>
+                    <label></label><input type="checkbox" name="Azul" id="amarelo">Amarelo</label>
+                </fieldset>
+            </form>
+        </form>
+    </div>
+</body>
+
+</html>
